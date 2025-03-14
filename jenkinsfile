@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the code from the GitHub repository, specify 'main' branch
-                git branch: 'main', url: 'https://github.com/yaashwin/jenkins_flask_project.git'
+                git branch: 'main', url: 'https://github.com/Guhanandan/jenkins_flask.git'
             }
         }
 
